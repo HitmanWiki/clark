@@ -1,0 +1,79 @@
+/*-- global --*/
+
+:root {
+  --clr-1: #111111;
+  --clr-2: #ffffff;
+  --clr-3: #4d4d4d;
+  --clr-4: #dda519;
+
+  --clr-bg-1: #ffffff;
+  --clr-bg-2: #fdf8ef;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+li,
+button {
+  font-family: "Gochi Hand", sans-serif;
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: 900;
+  line-height: 1;
+
+  text-shadow: -2px -2px 0 var(--clr-1), 2px -2px 0 var(--clr-1),
+    2px 2px 0 var(--clr-1), -2px 2px 0 var(--clr-1);
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1;
+  text-shadow: -2px -2px 0 var(--clr-1), 2px -2px 0 var(--clr-1),
+    2px 2px 0 var(--clr-1), -2px 2px 0 var(--clr-1);
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+p,
+li,
+a,
+button {
+  font-size: 1.7rem;
+}
+
+a {
+  color: var(--clr-2);
+  transition: 0.3s;
+}
+
+a:hover {
+  color: var(--clr-3);
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background: var(--clr-1);
+}
+
+::-webkit-scrollbar-track {
+  border-left: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--clr-3);
+}
